@@ -7,7 +7,7 @@ import DesignCard from '@/components/DesignCard.js'
 import AffiliationCard from '@/components/AffiliationCard.js'
 import dummyeduc from "../dummyeduc.js"
 import dummydesign from '../dummydesign.js'
-import dummyaffiliation from '../dummyaffiliation.js'
+import dummyaffiliation from '../../components/dummy/dummyaffiliation.js'
 
 import React, { useState } from "react";
 import { Button } from 'primereact/button';
