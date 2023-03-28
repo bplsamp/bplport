@@ -11,7 +11,9 @@ export default function AffiliationCard({affiliationitems}) {
         {affiliationitems.map((item, idx) => {
             return (
                 <Card className={`w-[300px] h-[500px] flex flex-col py-6 gap-2 transition hover:-translate-y-[5px] duration-700 duration-500 
-                ${styles.customHover}`}>
+                ${styles.customHover}`}
+                    key={idx}
+                >
                     <div className="flex flex-col items-center gap-2">
                         <div className="mr-auto ml-auto">{item.icon}</div>
                         <div className="font-medium text-[1.75rem] ml-auto mr-auto text-center">{item.title}</div>
